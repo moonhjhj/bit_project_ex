@@ -1,0 +1,211 @@
+/* CSS Document */
+.section {position:relative; margin-bottom:50px}
+.section_header {overflow:hidden; margin-bottom:8px;}
+
+.inquiry {margin-left:10px; font-family:"Nanum Gothic Bold"; color:#444; font-size:13px}
+
+/* ##################### Common ####################*/
+.form_type1 {border-top:5px solid #518fde}
+.form_type2 {/*padding:10px 0*/}
+
+.table_col_type1 tr.last th, .table_col_type1 tr.last td {border-bottom:0px}
+.table_col_type1 a {display:block}
+.table_col_type1 a:hover {color:#75902f;}
+.table_col_type1 th {padding:8px 10px; line-height:20px; border:1px solid #d1d1d1; text-align:center}
+.table_col_type1 td {padding:6px 10px; line-height:20px; border:1px solid #d1d1d1;}
+.table_col_type1 thead th {font-family: 'Nanum Gothic Bold'; font-size:13px; color:#222; background:#fffae9;}
+.table_col_type1 thead th.green {background:#75902f; color:#fff}
+.table_col_type1 tbody th {background:#fafafa; font-weight:bold}
+.table_col_type1 tbody .tit {background:#fffae9;}
+.table_col_type1 dl {margin:0 !important}
+
+.table_col_type2 tr.last th, .table_col_type2 tr.last td {border-bottom:0px; text-align:center}
+.table_col_type2 a {display:block}
+.table_col_type2 a:hover {color:#75902f;}
+.table_col_type2 th {border:1px solid #d1d1d1;}
+.table_col_type2 td {border:1px solid #d1d1d1;}
+.table_col_type2 thead th {padding:8px 10px; font-family: 'Nanum Gothic Bold'; font-size:13px; color:#222; background:#fffae9}
+.table_col_type2 thead th.courseName {background:#518fde; color:#fff}
+.table_col_type2 thead th.green {background:#75902f; color:#fff}
+.table_col_type2 tbody th {padding:8px 10px; font-weight:bold}
+.table_col_type2 tbody th.tit {background:#fffae9;}
+.table_col_type2 tbody td {padding:6px 10px; text-align:center}
+.table_col_type2 dl {margin:0 !important}
+.table_col_type2 li {line-height:20px}
+
+.table_col_type3 {}
+.table_col_type3 th, .table_col_type3 td {border-bottom:1px solid #e0e0e0}
+.table_col_type3 th {padding:10px 8px; font-family: 'Nanum Gothic Bold'; font-size:13px; color:#333; text-align:left}
+.table_col_type3 .tit {background:#fffae9}
+.table_col_type3 th .star {margin-left:3px; color:#b50a0a}
+.table_col_type3 td {padding:10px 8px; color:#555}
+.table_col_type3 tr.last th, .table_col_type3 tr.last td {border-bottom:1px solid #75902f}
+.table_col_type3 td  span {margin-left:5px}
+
+
+.conBox_type1 {}
+.conBox_type1 p {padding:0 20px !important; border:1px solid #d1d1d1; font-family: 'Nanum Gothic Bold'; font-size:13px; height:50px; line-height:50px; text-align:center}
+.conBox_type2 {margin-bottom:20px; padding:12px 15px; background:#f7f7f7; border:1px solid #e1e1e1; font-family: 'Nanum Gothic Bold'; font-size:13px;}
+
+.tap_header {border-bottom:1px solid #0f4d86}
+.tapMenu {position:relative; overflow:hidden; margin-left:10px; top:1px}
+.tapMenu li {float:left; margin-right:5px; border-top:1px solid #d1d1d1; border-left:1px solid #d1d1d1; border-right:1px solid #d1d1d1}
+.tapMenu li.on {border-top:1px solid #0f4d86; border-left:1px solid #0f4d86; border-right:1px solid #0f4d86; border-bottom:1px solid #fff}
+.tapMenu li.on a {color:#0f4d86}
+.tapMenu li a {display:block; padding:6px 22px; font-family: 'Nanum Gothic Bold'; font-size:12px;}
+
+.tap_content {padding:25px 10px}
+
+.check_wrap {padding:20px; text-align:center}
+
+#Content_Wrap .hGroup {position:relative; overflow:hidden; padding:28px 0 12px 0; border-bottom:1px solid #d1d1d1}
+#Content_Wrap .hGroup h4 {float:left; padding-left:25px; background:url('/Images/Common/ico_h4_type1.png') no-repeat;font-family: 'Nanum Gothic Bold'; font-size:20px; color:#64564b}
+#Content_Wrap .hGroup h4 .companyName {margin-left:10px; font-size:13px; color:#17538e }
+#Content_Wrap .lineMap {overflow:hidden; position:absolute; right:10px; top:40px;}
+#Content_Wrap .lineMap a {float:left; display:block; height:15px; margin-right:5px; padding-right:22px; font-family: 'Nanum Gothic Bold'; font-size:11px; color:#555; background:url('/Images/Common/ico_step_type1.png') right center no-repeat; line-height:15px}
+#Content_Wrap .lineMap a.on {font-family: 'Nanum Gothic Bold'; font-size:11px; color:#377abd}
+#Content_Wrap .lineMap a.last {background:none; padding-right:0px; margin-right:0px}
+
+.con_wrap .conVisual {margin:34px 0 22px 0; text-align:center}
+.con_wrap .conInfo {width:650px; margin:0 auto; padding:20px 35px; border:1px solid #d1d1d1; line-height:20px; text-align:center}
+
+.con_wrap {position:relative; margin-bottom:15px; padding:0 5px 15px 5px; background:url('/Images/Common/ico_dotted_gray.png') 0 bottom repeat-x; line-height:24px; z-index:98}
+.con_wrap.first {padding-top:20px}
+.con_wrap.last {background:none}
+.con_wrap h5 {margin:0px 0 8px 0; font-family: 'Nanum Gothic Bold'; font-size:15px; color:#8b6338;}
+.con_wrap.type1 h5 {display:inline-block; margin:0px 0 0px 0; padding:4px 32px 4px 12px; background:#377abd url('/Images/Content/ico_sTitle.png') no-repeat center right; font-family: 'Nanum Gothic Bold'; font-size:15px; color:#fff;}
+.con_wrap.type1 .txtBox {margin:-16px 0 0 0; padding:25px 10px 5px 10px; background:#f7f7f7 url('/Images/Content/ico_txtBox_01.png') no-repeat bottom right}
+.con_wrap h5 a {color:#8b6338;}
+.con_wrap h5 a:hover {text-decoration:underline}
+.con_wrap h6 {/*margin:0px 0 8px 0;*/ font-family: 'Nanum Gothic Bold'; font-size:13px;}
+.con_wrap p {padding-left:5px; margin-bottom:8px}
+.con_wrap dl {margin-bottom:10px; padding-bottom:10px}
+.con_wrap dt {font-family: 'Nanum Gothic Bold'; font-size:13px; color:#222}
+.con_wrap dd {padding-left:5px; color:#444}
+.con_wrap .btn_check {width:80px; height:50px; line-height:50px; font-family: 'Nanum Gothic Bold'; font-size:14px; color:#fff}
+.section_header h5 {margin-top:20px; font-family: 'Nanum Gothic Bold'; font-size:15px; color:#8b6338;}
+
+/*
+.con_wrap dl {margin-bottom:12px; padding-bottom:12px; background:url('/Images/Common/ico_dotted_gray.png') 0 bottom repeat-x}
+.con_wrap dt {padding-bottom:12px; font-family: 'Nanum Gothic Bold'; font-size:14px; color:#997044;}
+.con_wrap dd {margin-left:5px; line-height:20px}
+*/
+
+
+.diagram_wrap {margin:15px 0; text-align:center}
+
+.refundList_wrap {overflow:hidden; width:884px; height:351px; background:url('/Images/Content/bg_refundInfo_01.jpg') no-repeat}
+.refundCon {float:left; position:relative; width:280px; margin:0 22px 0 0px; text-align:center}
+.refundCon.last {margin-right:0px}
+
+.refundCon h4{margin-top:65px; font-family: 'Nanum Gothic Bold'; font-size:15px; color:#fff}
+.refundCon h4 a {color:#fff;}
+.refundCon a:hover {text-decoration:underline}
+.refundCon .conTxt {margin-top:58px; font-family: 'Nanum Gothic Bold'; color:#555; line-height:20px}
+.refundCon .detailBtn {margin-top:10px}
+
+
+.tap_content {margin-top:20px; padding:15px 15px; border:1px solid #d1d1d1}
+.tap_content.yellow {background:#fffae9;}
+.tap_content h4 {font-weight:bold; font-size:13px; color:#333}
+.tap_content dl {border-bottom:1px solid #d1d1d1; background:none}
+.tap_content dl.last {border-bottom:0px}
+
+.subCnt {position:relative;}
+.subCnt.no1 {padding:40px 0}
+.subCnt.no1 h5 {font-family: 'Nanum Gothic Bold'; font-size:20px; color:#237491}
+.subCnt.no1 dl {padding:25px 30px 20px 0px; }
+.subCnt.no1 dl.no2 {width:735px; background:#fffae9; border-bottom:1px solid #d1d1d1; border-top:1px solid #d1d1d1}
+.subCnt.no1 dt {margin-bottom:6px; font-family: 'Nanum Gothic Bold'; font-size:14px; color:#237491}
+.subCnt.no1 dd {color:#555; line-height:20px}
+.subCnt.no1 .cntTxt.no1 {margin:20px 0 0 0px; font-family: 'Nanum Gothic Bold'; font-size:16px; color:#18a6a7}
+.subCnt.no1 .imgCnt {position:absolute}
+.subCnt.no1 .imgCnt.no1 {right:463px; bottom:-57px}
+.subCnt.no1 .imgCnt.no2 {right:-5px; top:65px}
+
+.subCnt.no2 {margin-left:507px; padding-bottom:50px}
+.subCnt.no2 h5 {margin-bottom:22px; font-family: 'Nanum Gothic'; font-size:42px; color:#18a6a7}
+.subCnt.no2 table {width:300px}
+.subCnt.no2 td {font-size:14px; color:#18a6a7; line-height:20px}
+
+.visual_wrap {position:relative; padding:20px 0;  margin-left:10px; background:url("/Images/Content/bg_visual_01.png") 0 -15px no-repeat}
+.visual_wrap .sTit {margin-bottom:8px; font-family: 'Nanum Gothic Bold'; font-size:15px; color:#555}
+.visual_wrap .bTit {margin-bottom:20px; font-family: 'Nanum Gothic Bold'; font-size:18px; color:#333}
+.visual_wrap .cntName {margin-bottom:25px; width:142px; padding:10px 0; border-top:3px solid #5c741e; font-family: 'Nanum Gothic Bold'; font-size:30px; color:#5c741e}
+.visual_wrap .txtCon {margin-bottom:45px; font-size:12px; color:#333; line-height:20px}
+.visual_wrap .support {position:absolute; left:300px; bottom:55px}
+.courseInfo {background:none }
+
+.tap_content .loadMap {margin-bottom:30px}
+.tap_content .loadMap h4 {margin-bottom:15px; font-family: 'Nanum Gothic Bold'; font-size:12px; color:#222}
+.loadMapCon {overflow:hidden; }
+.loadMapCon li {position:relative; float:left; width:165px; height:76px; margin-right:62px; border-left:1px solid #d1d1d1; border-right:1px solid #d1d1d1; border-bottom:1px solid #d1d1d1; border-top:4px solid #0f4d86 !important; background:#fafafa; line-height:76px; text-align:center}
+.loadMapCon li .arrow_right {position:absolute; right:-44px; top:22px; width:18px; height:29px; background:url('/localCampus/Images/Common/ico_arrow_right.png') no-repeat;}
+.loadMapCon li.last {margin-right:0px;}
+
+.collegeList {overflow:hidden}
+.collegeList li {float:left; margin:0 8px 8px 0; font-size:12px; color:#333; text-align:center}
+.collegeList li.last {margin-right:0px}
+
+.courseList:after {content:""; display:block; clear:both}
+.courseList li {position:relative; float:left; width:200px; min-height:290px; margin-top:-1px;  padding:10px; border-left:1px solid #e9e9e9; border-top:1px solid #e9e9e9; border-bottom:1px solid #e9e9e9}
+.courseList li.last{border:1px solid #e9e9e9}
+.courseList li h6 {margin-top:15px; padding-bottom:10px; text-align:center; font-size:18px; line-height:22px}
+.courseList li .registerBtn {position:absolute; left:60px; bottom:10px; text-align:center}
+
+.step_wrap {position:relative; width:750px; height:103px; margin-bottom:10px; padding:15px 0 0 130px; background:url("/Images/Common/bg_oneLine_mid.png") no-repeat}
+.step_wrap .stepNum {position:absolute; left:28px; top:40px; font-family: 'Nanum Gothic Bold'; font-size:14px; color:#406d7a}
+.step_wrap .stepTit {margin-bottom:3px; padding-top:12px; font-family: 'Nanum Gothic Bold'; font-size:14px; color:#406d7a}
+.step_wrap .stepCon {color:#555}
+
+.step_wrap.type2 {height:109px; background:url("/Images/Common/bg_oneLine_type2.png") no-repeat}
+.step_wrap.type2 .stepNum {font-size:28px; left:34px; top:42px}
+
+.step_wrap.type3:after{content:""; display:block; clear:both;}
+.step_wrap.type3 {height:100%; min-height:90px; padding-left:150px}
+.step_wrap.type3 .conWrap {overflow:hidden; margin-bottom:5px}
+.step_wrap.type3 .stepNum {font-family: 'Nanum Gothic Bold'; font-size:16px}
+.step_wrap.type3 .conWrap .stepTit {float:left; padding:0 10px 0 0}
+.step_wrap.type3 .conWrap .stepCon {float:left; width:700px; padding:0 0 0 8px}
+
+
+.companyList {overflow:hidden; padding:0 10px;}
+.companyList li {float:left; width:160px; margin:0 10px 10px 0; color:#333}
+.companyList.yellow li {background:#fffae9 !important}
+
+.logoList {zoom:1; margin-bottom:30px}
+.logoList:after {content:""; display:block; clear:both;}
+.logoList li {float:left; width:175px; height:60px; margin:-1px 0 0 -1px; border:1px solid  #d1d1d1; text-align:center; line-height:60px}
+
+.conTxt {margin-top:30px}
+
+.galleryList {overflow:hidden}
+.galleryList li {float:left; margin:0 10px 10px 0; border:1px solid #d1d1d1}
+.galleryList li.last {margin-right:0px}
+
+.login .loginBox {width:510px; margin:0 auto; text-align:center; }
+.login .loginBox h4 {margin-bottom:20px; border:0px !important; font-size:14px; color:#555555; line-height:24px}
+.login .loginBox input {width:485px; margin-bottom:12px; padding:18px 14px; font-family: 'Nanum Gothic Bold'; font-size:16px; color:#555}
+.login .btn_wrap {width:517px; overflow:hidden}
+.login .btn_wrap a {font-family: 'Nanum Gothic Bold';}
+.login .loginBtn {width:513px; height:48px; font-size:17px; color:#fff; line-height:48px}
+.login .joinBtn {float:left; width:250px; height:42px; margin-top:10px; font-size:14px; color:#333; line-height:42px}
+.login .idpwBtn {float:right; width:250px; height:42px; margin-top:10px; font-size:14px; line-height:42px}
+
+.sub .cntBox {width:855px; padding:20px; border:1px solid #d1d1d1; text-align:left}
+.sub .cntBox.policy {overflow-y:scroll; height:300px;}
+.sub .cntBox.policy h5 {border:0px; padding:0px; margin-bottom:15px; font-family: 'Nanum Gothic Bold'; font-size:14px;}
+.sub .cntBox.policy dl {margin-bottom:15px}
+.sub .cntBox.policy dt {font-weight:bold; margin-bottom:5px;}
+.sub .cntBox.policy dd {line-height:18px; line-height:20px}
+.sub .cntBox.policy dd ol li {margin-left:18px; list-style:decimal;}
+
+.listfont_btn {font-family:Nanum Gothic Bold; margin:0 2px; padding:5px 10px; border:1px solid #d1d1d1; color:#a1a1a1}
+.listfont_btn.on {background:#17538e ; color:#fff}
+
+.refundInfo_wrap {position:relative; z-index:100}
+.refund_con {display:none; overflow-y:scroll; height:500px; position:absolute; left:113px; /*top:188px;*/top:-50px; width:700px;  padding:15px; background:#fff/*url("/Images/Common/bg_patten.jpg") repeat*/; border:1px solid #4369b9; z-index:99}
+.refund_con.on {display:block}
+.refund_con2 {display:none; overflow-y:scroll; height:500px; position:absolute; left:113px; /*top:188px;*/top:-50px; width:700px;  padding:15px; background:#fff/*url("/Images/Common/bg_patten.jpg") repeat*/; border:1px solid #4369b9; z-index:99}
+.refund_con2.on {display:block}
+

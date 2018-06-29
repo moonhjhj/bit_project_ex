@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="comment">
+
+
+<insert id="write" parameterType="com.javaex.vo.CommentVo">
+	<![CDATA[
+		insert into comment
+		(bno, content, writer, reg_date)
+		values
+		(
+		#{bno}
+		,#{content}
+		,#{writer}
+		,now()
+		)
+	]]>
+</insert>
+
+
+<select id="commentView" resultType = "com.javaex.vo.CommentVo">
+
+	<![CDATA[
+		select c.cno, c.bno, c.content, c.writer, c.reg_date, b.no 
+		from comment c, boards b
+		where c.bno = b.no ;
+	]]>
+</select>
+
+
+</mapper>

@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/* Common CSS */
+/* Author : Woo Seok, Shin 2014-03-10 */
+/* CSS 적용순서 : 아이디 > 태그와 클래스 > 클래스 > 태그
+/* CSS 선택자 선언순서 : Type Selector, Layout Selector, Class Selector, Etc */
+/* CSS 속성 선언순서 : display, position, float/clear, overflow, width/height, margin/padding, border, background, color/font, align, etc */
+
+
+* {margin:0px; padding:0px;}
+
+body {	 
+	scrollbar-3dlight-color:#b4b4b4;
+	scrollbar-arrow-color:#333333;
+	scrollbar-base-color:#eeeeee;
+	scrollbar-darkshadow-color:#efefef;
+	scrollbar-face-color:#efefef;
+	scrollbar-highlight-color:#ffffff;
+	scrollbar-shadow-color:#b4b4b4;
+	background:#e4e4e4;/*url("/Images/Common/bg_body.png") repeat;*/
+	height:100%;
+	font-family:"Gothic", Arial;	
+	font-size:12px;
+	line-height:normal;
+	color:#222222;
+	overflow-x:hidden;
+	-webkit-font-smoothing:antialiased;
+}
+
+address, article, aside, canvas, details, figure, figcaption, footer, header, hgroup, menu, nav, section {display:block; min-height:1px;}
+hr, caption {display:none;}
+h1, h2, h3, h4, h5, h6 ,h7 {font-weight:normal;}
+img {border:none; vertical-align:middle;}
+ol, ul, li, dl, dt, dd {list-style:none;}
+table {width:100%; border:0px; border-spacing:0px; border-collapse:collapse;}
+th {font-weight:normal; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+th, td {border:0px; word-break:break-all; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+fieldset {width:100%; border:0px;}
+legend {display:none;}
+caption {display:none;}
+frameset {border:0px;}
+iframe {width:100%; border:0px;}
+em, address {font-style:normal;}
+small {display:block; font-size:9px; line-height:0px;}
+form {height:100%;}
+
+
+/* select */
+select {min-width:60px; padding:3px; border:1px solid #ccc; font-size:12px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+.select_flyout li a {display:block; padding:6px 10px 2px 10px;}
+.select_flyout li a:hover {font-weight:bold; color:#333; background-color:#eee;}
+
+select.select_red {border:2px solid #d80546;}
+
+
+button {overflow:visible; cursor:pointer;}
+button, a, select, input, label, li {vertical-align:middle;}
+
+a { text-decoration:none; vertical-align:middle; color:#333}
+a:active, visited, link {color:#646464;}
+a:hover {text-decoration:underline;}
+
+a.red {color:#D80546; text-decoration:none; vertical-align:middle;}
+a.red:active, visited, link {color:#D80546;}
+a.red:hover {color:#D80546; text-decoration:underline;}
+
+/* input */
+input {/*box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;*/}
+input[type=radio],input[type=checkbox] {border:none;}
+input[type=text], input[type=password] {
+	font-family:Arial;
+	height:24px; 
+	padding:0 5px 0 5px; 
+	border:1px solid #ccc; 
+	font-size:12px; 
+	line-height:22px; 
+	vertical-align:middle; 
+	background-color:#fff;
+	/*
+	-webkit-transition-property: width;
+	-moz-transition-property: width;
+	transition-property: width;
+	-webkit-transition-duration: 0.5s, 0.5s;
+	-moz-transition-duration: 0.5s, 0.5s;
+	transition-duration: 0.5s, 0.5s; 
+	-webkit-transition-timing function: linear, ease-in;
+	-moz-transition-timing function: linear, ease-in; 
+	transition-timing function: linear, ease-in;
+	*/
+}
+input[placeholder], input.placeholder, textarea[placeholder], textarea.placeholder { font-size:12px; color:#999 !important;}
+input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus {border:1px solid #666; color:#666666;}
+
+/* textarea */
+textarea {
+	border:1px solid #ccc;
+	margin:2px 0 2px 0; 
+	padding:5px; 
+	vertical-align:middle; 
+	box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	-webkit-box-sizing:border-box;
+	-webkit-transition-property: width;
+	-moz-transition-property: width;
+	transition-property: width;
+	-webkit-transition-duration: 0.5s, 0.5s;
+	-moz-transition-duration: 0.5s, 0.5s;
+	transition-duration: 0.5s, 0.5s; 
+	-webkit-transition-timing function: linear, ease-in;
+	-moz-transition-timing function: linear, ease-in; 
+	transition-timing function: linear, ease-in;	
+}
+
+a:link {text-decoration:none; }
+a:visited { text-decoration:none; }
+a:hover { text-decoration:none; }
+a:active { text-decoration:none;  }
+
+
+/* Font */
+@font-face {
+  font-family: 'Nanum Gothic Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.woff2) format('woff2'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.woff2) format('woff2'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.woff2) format('woff2'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.ttf) format('truetype');
+}
